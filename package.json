@@ -1,10 +1,11 @@
 {
-  "name": "UdemyCourse",
+  "name": "udemy-course",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "install:pods": "cd ios && pod install && cd ..",
+    "ios": "react-native run-ios --udid=\"7CFAC515-DC32-48B4-A006-A0CD87C5DEDE\"",
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest"
